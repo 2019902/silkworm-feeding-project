@@ -9,6 +9,7 @@ A PyTorch project to classify silkworm images into “feeding” vs. “no feedi
 
 ## Repository Structure
 
+```markdown
 silkworm-feeding-project/
 │
 ├── README.md
