@@ -1,4 +1,3 @@
-# silkworm-feeding-project
 # RUGGERI RICCARDO, VENNERI ROBERTA
 
 # Silkworm Feeding Classification
