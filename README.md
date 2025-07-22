@@ -20,7 +20,7 @@ The classification task is handled using a **pretrained MobileNet_v2** architect
 
 For segmentation, the approach is entirely unsupervised. A custom model based on **MobileViT** — a hybrid architecture that combines CNNs with lightweight Transformer blocks was implemented.
 
-After feature extraction, **clustering algorithms** are applied to separate the image into silkworms, mulberry leaves, and background:
+After feature extraction, clustering algorithms are applied to separate the image into silkworms, mulberry leaves, and background:
 
 - **K-Means**, for its simplicity and speed.
 - **Gaussian Mixture Models (GMM)**, to capture more complex cluster distributions.
@@ -28,7 +28,7 @@ After feature extraction, **clustering algorithms** are applied to separate the 
 ## Dataset
 
 The dataset used for this project is provided in the `/data` folder.  
-Please refer to `/data/README.md` for detailed instructions on how to download and prepare the data.
+You can refer to `/data/README.md` for detailed instructions on how to download and prepare the data.
 
 ---
 ## Code Structure
@@ -58,7 +58,7 @@ However, to avoid potential conflicts, it's recommended **not to run both model 
    - If you're working on classification, continue with the `Train` section and then run the `Pruning Evaluation` cell.
    - If you're working on segmentation, you can skip training and go directly to the `Clustering Evaluation` cell.
 
-If you want to run both tasks consecutively, that's totally fine — just make sure you **run only one model definition at a time**, in either order.
+You can also run both tasks consecutively — just make sure you **run only one model definition at a time**, in either order.
 
 This sequential approach ensures both tasks can be executed independently without conflicts.
 
