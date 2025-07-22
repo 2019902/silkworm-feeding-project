@@ -37,7 +37,7 @@ The code is divided into modules to ensure clarity and modularity:
 - **Globals**: global variables and parameters
 - **Utils**: reusable support functions
 - **Data**: Loading, preprocessing and augmentation of data
-- **Network**: definition of network architectures (MobileNetV2 for classification, MobileViT for clustering)
+- **Network**: definition of network architectures (MobileNet_v2 for classification, MobileViT for clustering)
 - **Train**: training cycle for classification
 - **Evaluation**: evaluation of results using quantitative metrics and qualitative visualisations
 
