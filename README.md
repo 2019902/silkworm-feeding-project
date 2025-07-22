@@ -73,7 +73,8 @@ silkworm-feeding-project/
 │ ├──README.md
 │
 ├── notebooks/
-│ └── feeding_classification.ipynb
+│ └── feeding_silkworm_Ruggeri_Venneri.ipynb
+| └── feeding_silkworm_Ruggeri_Venneri.py
 │     Interactive Colab notebook for training & pruning
 │
 ├── src/
