@@ -5,7 +5,8 @@ Notebook link: https://colab.research.google.com/drive/1DHWKm0laMCYVhewcoq3PdYTb
 
 ## Contents
 
-- **`feeding_classification.ipynb`**  
+- **`feeding_silkworm_Ruggeri_Venneri.ipynb`**
+- **`feeding_silkworm_Ruggeri_Venneri.py`**  
   An end-to-end Colab notebook that shows how to:
   1. Mount Google Drive and prepare the dataset  
   2. Define the `SilkwormDataset` and data loaders  
